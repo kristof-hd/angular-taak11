@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<ul class="personen">
+    <li *ngFor="let persoon of personen">
+        <a routerLink="/detail/{{persoon.id}}">{{persoon.firstName}} {{persoon.surname}}</a>
+    </li>
+</ul>

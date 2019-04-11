@@ -1,0 +1,8 @@
+<div *ngIf="persoon">
+  <h2>{{persoon.firstName}} {{persoon.surname}} details</h2>
+  <div><label>id: </label>{{persoon.id}}</div>
+  <div><label>first name: </label>{{persoon.firstName}}</div>
+  <div><label>surname: </label>{{persoon.surname}}</div>
+  <div><label>year of birth: </label>{{persoon.yearOfBirth}}</div>
+  <button class="btn" (click)="goBack()">Go back</button>
+</div>
